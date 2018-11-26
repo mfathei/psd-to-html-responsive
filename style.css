@@ -82,5 +82,97 @@ header nav a.current {
 
 #main-banner {
     max-height: 500px;
-    overflow: hiddent;
+    overflow: hidden;
+}
+
+#service {
+    margin-top: 40px;
+}
+
+#service::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+#service h2 {
+    line-height: 0;
+    margin: 0;
+    text-indent: -10000px;
+}
+
+#service li {
+    list-style-type: none;
+    float: left;
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+    line-height: 1.6em;
+}
+
+#service li p {
+    color: #a3a3a3;
+}
+
+/**  latest work */
+#latest-work {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #e4e4e4;
+}
+
+#latest-work::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+#latest-work h2 {
+    text-transform: uppercase;
+    color: #4e4e4e;
+}
+
+#latest-work li {
+    list-style-type: none;
+    width: 32%;
+    float: left;
+    line-height: 1.6em;
+}
+
+#latest-work h3 {
+    color: #4e4e4e;
+    font-weight: bold;
+}
+
+#latest-work li img {
+    width: 100%;
+}
+
+#latest-work li:nth-child(2) {
+    margin: 0 2%;
+}
+
+#latest-work li p {
+    line-height: 1.6em;
+    color: #838383;
+}
+
+#latest-work li p.tags {
+    color: #bbb;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/** quote */
+
+#quote {
+    margin-top: 60px;
+    width: 60%;
+    padding: 40px 20%;
+    line-height: 1.6em;
+    font-size: 20px;
+    background: url(images/quote.png) no-repeat center 10px;
+    background-color: #efefef;
+    color: #a1a1a1;
+    text-align: center;
 }
