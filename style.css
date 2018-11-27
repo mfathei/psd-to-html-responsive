@@ -282,3 +282,27 @@ footer li.tweet {
         text-align: center;
     }
 }
+
+@media screen and (max-width: 480px) {
+    #service li {
+        width: 80%;
+        padding: 0 10%;
+        margin: 20px 0;
+    }
+
+    #latest-work li {
+        width: 80%;
+        margin: 30px 10% !important;
+    }
+
+    #quote {
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    footer ul {
+        float: none;
+        width: 100%;
+        border-top: 1px solid #333;
+    }
+}
