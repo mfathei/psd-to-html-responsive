@@ -232,3 +232,53 @@ footer li.tweet {
     font-size: 14px;
     border-top: 2px solid #333;
 }
+
+@media screen and (max-width: 960px) {
+
+    #service li {
+        width: 40%;
+        padding: 0 5%;
+        margin: 20px 0;
+    }
+
+    footer ul {
+        width: 50%;
+    }
+
+    footer ul:nth-child(even) {
+        clear: both;
+    }
+
+    #quote {
+        width: 90%;
+        padding: 40px 5%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    header nav {
+        float: none;
+    }
+
+    header h1.logo {
+        float: none;
+        margin: 0 auto 15px;
+    }
+
+    header nav li {
+        margin-left: 0;
+        width: 16.66%;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    #latest-work li {
+        width: 60%;
+        margin: 30px 20% !important;
+    }
+
+    #latest-work h2 {
+        text-align: center;
+    }
+}
